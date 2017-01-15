@@ -1,0 +1,39 @@
+@font-face {
+	font-family: "Proxima Nova Bold";
+	src: url(../fonts/ProximaNova-Bold.ttf);
+	src: url(../fonts/ProximaNova-Bold.otf);
+	src: url(../fonts/ProximaNova-Bold.svg);
+	src: url(../fonts/ProximaNova-Bold.woff);
+	src: url(../fonts/ProximaNova-Bold.eot);
+}
+@font-face {
+	font-family: "Proxima Nova Light";
+	src: url(../fonts/ProximaNova-Light.ttf);
+	src: url(../fonts/ProximaNova-Light.otf);
+	src: url(../fonts/ProximaNova-Light.svg);
+	src: url(../fonts/ProximaNova-Light.woff);
+	src: url(../fonts/ProximaNova-Light.eot);
+}
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700');
+
+body {
+	h1, p, span, a {
+		font: 400 10px '', Regular;
+	}
+	h2 {
+		font: 300 10px '', Regular;
+	}
+	h1, h2 {
+		text-transform: uppercase;
+	}
+	ul {
+		list-style: none;
+	}
+}
+
+@import "header";
+
+@import "home";
+
+@import "footer";
